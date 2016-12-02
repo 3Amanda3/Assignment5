@@ -5,6 +5,7 @@ import java.util.Scanner;
  * @author a.schepp
  * Mr hardman
  * finding the max value of user inputted numbers
+ * November 28
  *
  */
 public class MaximumValue {
@@ -33,6 +34,9 @@ public class MaximumValue {
 				max = userNum [i];
 		}
 	}
+		for(int i=0; i < userNum.length; i++){		
+			System.out.print(userNum[i] + "    ");
+		}
 		
 		System.out.println("The max vaule is " +max);
 		userInput.close();

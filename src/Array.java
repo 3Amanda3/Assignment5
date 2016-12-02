@@ -7,7 +7,7 @@ import java.util.Scanner;
  * @author a.schepp
  * Mr hardman
  * searchs in an array to find the index at a value
- * November 24
+ * November 28
  *
  */
 public class Array {
